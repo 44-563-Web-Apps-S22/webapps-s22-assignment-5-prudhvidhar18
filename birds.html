@@ -13,6 +13,24 @@
 
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="birds.html">Interesting Birds</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link active" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+  </nav>  
     <h1>Birds by Prudhvidhar reddy Gopireddy</h1>
 
     <div class="container-fluid"></div>
@@ -36,7 +54,156 @@
         <p>The Row which contains bird names breaks frist.<br>
             The reason for this is, grid system of letters and birds are col-sm-2 Small and col-md Medium.The letters in class grid structure is small,so they stay horizontal, whereas the bird elements switch to vertical when the screen size falls below 768px i.e.,Medium.</p><br>
 
- 
+            
+
+            <div class="container">
+              <img src="Gabon Woodpecker.jpg" class="image-fluid" width="250px" height="200px">
+              <img src="Olive-backed Sunbird.jpg" class="image-fluid" width="250px" height="200px">
+              <img src="Parrot-billed Sparrow.jpg" class="image-fluid" width="250px" height="150px">
+           </div><br>
+           <div>
+            <img src="Gabon Woodpecker.jpg" class="img-thumbnails" width="250px" height="200px">
+            <img src="Olive-backed Sunbird.jpg" class="img-thumbnails" width="250px" height="200px">
+            <img src="Parrot-billed Sparrow.jpg" class="img-thumbnails" width="250px" height="150px">
+           </div>
+           <table class="table table-striped table-bordered" style="color:black;width:40%; text-align:center;margin-left:auto;margin-right:auto;">
+            <caption style="font-size: 20px;color: teal;">This table consists of 4 columns.
+              It consists of elements of bird,lake, and Athlete starting with the letters of my Last Name.</caption>
+          <thead>
+            <tr class="table-info">
+              <th scope="col">Letter</th>
+              <th scope="col">Bird</th>
+              <th scope="col">Lake</th>
+              <th scope="col">Athlete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-dark">
+              <td scope="row">G</td>
+              <td scope="row">Gabon Woodpecker</td>
+              <td scope="row">Gladewater</td>
+              <td scope="row">Gibs</td>
+            </tr>
+            <tr class="table-light">
+              <td scope="row">O</td>
+              <td scope="row">Olive-backed Sunbird </td>
+              <td scope="row">Oak Creek Reservoir</td>
+              <td scope="row">Owais Shah</td>
+            </tr>
+            <tr class="table-danger">
+              <td scope="row">P</td>
+              <td scope="row">Parrot-billed Sparrow</td>
+              <td scope="row">Padera Lake</td>
+              <td scope="row">prithvi shah</td>
+            </tr>
+            <tr class="table-success">
+              <td scope="row">I</td>
+              <td scope="row">Iago Sparrow </td>
+              <td scope="row">Inks Lake</td>
+              <td scope="row">Ian Bell</td>
+            </tr>
+            <tr class="table-primary">
+              <td scope="row">R</td>
+              <td scope="row">Red-eyed bulbul</td>
+              <td scope="row">Rucker Pond</td>
+              <td scope="row">Robinson</td>
+            </tr>
+            <tr class="table-secondary">
+              <td scope="row">E</td>
+              <td scope="row">Eagle Owl</td>
+              <td scope="row">Eagle Mountain Lake</td>
+              <td scope="row">Eoin Morgan</td>
+            </tr>
+            </tbody>
+            </table><br>
+            <lable>BUTTONS:</lable>
+            <br>
+              <button class="btn">G</button>
+              <button class="btn">O</button>
+              <button class="btn">P</button>
+              <button class="btn">I</button>
+              <button class="btn">R</button>
+              <button class="btn">E</button>
+              <br>
+            
+
+            <div class="btn-toolbar" role="toolbar" aria-label="Button Groups">
+              <div class="btn-group me-2" role="group" aria-label="First Button">
+                  <button type="button" class="btn btn-success">G</button>
+                  <button type="button" class="btn btn-success">O</button>
+                  <button type="button" class="btn btn-success">P</button>
+              </div>
+              <div class="btn-group me-2" role="group" aria-label="Second Button">
+                  <button type="button" class="btn btn-warning">I</button>
+                  <button type="button" class="btn btn-warning">R</button>
+              </div>
+              <div class="btn-group me-2" role="group" aria-label="Third Button">
+                  <button type="button" class="btn btn-danger">E</button>
+              </div>
+              </div>
+
+              <br>
+
+           <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="basic.html">Basic</a>
+              <a class="dropdown-item" href="advanced.html">Advanced</a>
+          </div>
+          </div>
+          <br>
+          <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="form-label">Bird</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your Bird">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <br>
+          <div class="card-group">
+            <div class="card" style="width: 18rem;">
+                <img src="Gabon Woodpecker.jpg" class="card-img-top" height="250px" width="250px" alt="woodpecker">
+                <div class="card-body">
+                <h5 class="card-title">woodpecker</h5>
+                <p class="card-text"> A medium-sized woodpecker of forest edge, often seen probing and prying into wood for insects. </p>
+                <a href="https://ebird.org/species/gabwoo1" class="btn btn-primary">woodpecker details</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="Olive-backed Sunbird.jpg" class="card-img-top" height="300px" width="300px" alt=" yellow-bellied sunbird">
+                <div class="card-body">
+                <h5 class="card-title"> yellow-bellied sunbird</h5>
+                <p class="card-text">Tiny and active sunbird of forest edges, parks, and gardens; the most common urban sunbird throughout most of its range. Both sexes have a plain olive back, a yellow belly, and white tail edges that are flared out in flight.</p>
+                <a href="https://ebird.org/species/olbsun4" class="btn btn-primary"> yellow-bellied sunbird details</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="Parrot-billed Sparrow.jpg" class="card-img-top" height="180px" width="180px" alt=" Passer gongonensis">
+                <div class="card-body">
+                <h5 class="card-title"> Passer gongonensis</h5>
+                <p class="card-text">A drab sparrow of northeastern Africa. The head and underparts are gray, the wing and back are brown, and the rump is rufous.</p>
+                <a href="https://en.wikipedia.org/wiki/Ural_owl" class="btn btn-primary"> Passer gongonensis details</a>
+                </div>
+            </div>
+            </div>
+
+          
+
+
+
+</body>
+</html>
 
 
 
